@@ -77,8 +77,10 @@ static const char *fortran_keywords[] = {
     "integer", "real", "double", "precision", "complex", "logical", "character",
     "dimension", "common", "equivalence", "data", "parameter",
     "if", "then", "else", "elseif", "endif", "do", "enddo", "continue",
-    "goto", "call", "return", "stop", "pause",
-    "read", "write", "print", "open", "close", "format",
+    "goto", "call", "return", "stop", "pause","byte", 
+    "read", "write", "print", "open", "close", "format","assign","to","external",
+    "intrinsic","save","entry","block data","include","inquire","rewind","backspace",
+    "endfile",
     NULL
 };
 
